@@ -181,7 +181,7 @@ class SLPP(object):
                             o[idx] = k
                         idx += 1
                         k = None
-        print (ERRORS['unexp_end_table'] #Bad exit here)
+        print (ERRORS['unexp_end_table']) #Bad exit here)
 
     words = {'true': True, 'false': False, 'nil': None}
     def word(self):
